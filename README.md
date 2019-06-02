@@ -58,7 +58,16 @@ export default {
   }
 }
 ```
-### Difference（使用方法的区别）
+### vue测试环境注意要配置babel
+```javascript
+module.exports = {
+  presets: [
+      ['@vue/app', {modules: 'umd', useBuiltIns: 'entry'}]
+  ]
+}
+```
+
+### Difference（使用方法）
 
 ### SPA
 
