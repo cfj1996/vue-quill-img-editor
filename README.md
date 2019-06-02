@@ -121,7 +121,20 @@ module.exports = {
   }
 </script>
 ```
+### 配置服务器
 
+```javascript(get)
+ {
+     code: 200
+     msg: "quilljs"
+ }
+```
+```javascript(post)
+ {
+     code: 200
+     url: "http://127.0.0.1:7001/public/uploads/fb3d66947fa94904e13a4a118a590ed5.png"
+ }
+```
 
 ## Modules
 - [quill-image-extend-module](https://github.com/NextBoy/quill-image-extend-module)
