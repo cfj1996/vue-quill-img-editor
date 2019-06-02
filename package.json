@@ -1,0 +1,48 @@
+{
+  "name": "vue-quill-img-editor",
+  "version": "1.1.0",
+  "private": false,
+  "description": "vue quill add image upload function",
+  "main": "dist/vue-quill-img-editor.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cfj1996/vue-quill-img-editor"
+  },
+  "scripts": {
+    "build": "webpack",
+    "link": "npm link"
+  },
+  "keywords": [
+    "vue-quill-editor",
+    "vue quill",
+    "vue text editor",
+    "vue rich text editor",
+    "vue web editor",
+    "vue editor image upload"
+  ],
+  "author": "cfj",
+  "license": "ISC",
+  "dependencies": {
+    "quill": "^1.3.6"
+  },
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-transform-modules-commonjs": "^7.4.4",
+    "babel": "^6.5.2",
+    "babel-core": "6",
+    "babel-loader": "7.1.5",
+    "babel-preset-es2015": "^6.24.1",
+    "css-loader": "^2.1.1",
+    "vue": "^2.5.0",
+    "vue-hot-reload-api": "^1.2.0",
+    "vue-html-loader": "^1.0.0",
+    "vue-loader": "^15.7.0",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.2"
+  }
+}
