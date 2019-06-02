@@ -1,6 +1,6 @@
 {
   "name": "vue-quill-img-editor",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "private": false,
   "description": "vue quill add image upload function",
   "main": "dist/vue-quill-img-editor.js",

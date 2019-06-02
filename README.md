@@ -1,29 +1,13 @@
 
 # vue-quill-img-editor
-🍡Quill editor component for Vue, support SPA and SSR.
+🍡Quill editor component for Vue, support SPA.
 
 基于 Quill、适用于 Vue 的富文本编辑器，支持单页应用。
-
-## Install
-
-#### CDN
-
-``` html
-<link rel="stylesheet" href="path/to/quill.core.css"/>
-<link rel="stylesheet" href="path/to/quill.snow.css"/>
-<link rel="stylesheet" href="path/to/quill.bubble.css"/>
-<script type="text/javascript" src="path/to/quill.js"></script>
-<script type="text/javascript" src="path/to/vue.min.js"></script>
-<script type="text/javascript" src="path/to/dist/vue-quill-img-editor.js"></script>
-<script type="text/javascript">
-  Vue.use(window.VueQuillEditor)
-</script>
-```
 
 #### NPM
 
 ``` bash
-npm install vue-quill-img-editor --save
+npm install vue-quill-img-editor quill --save
 ```
 
 ### Mount
